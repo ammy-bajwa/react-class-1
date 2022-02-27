@@ -6,8 +6,8 @@ interface DetailsProps {
   userData: string;
 }
 
-const Details: FC<DetailsProps> = ({ userData }) => {
+export const Details: FC<DetailsProps> = ({ userData }) => {
   return <p className="details-main-para">{userData}</p>;
 };
 
-export default Details;
+// export default Details;

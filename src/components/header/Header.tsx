@@ -7,7 +7,7 @@ interface HeaderProps {
   age: number;
 }
 
-const Header: FC<HeaderProps> = ({ name, age }) => {
+export const Header: FC<HeaderProps> = ({ name, age }) => {
   return (
     <h1>
       My name is {name} and age is {age}
@@ -15,4 +15,4 @@ const Header: FC<HeaderProps> = ({ name, age }) => {
   );
 };
 
-export default Header;
+// export default Header;
